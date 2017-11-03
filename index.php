@@ -9,10 +9,10 @@ $roll = rand(1,6);
 echo $roll;
 
 if ($roll == 1){
-echo "Almost Snake Eyes!";
+echo " Almost Snake Eyes!";
 }
 elseif ($roll == 6){
-echo "Winner!";
+echo " Winner!";
 }
 else{
 }
