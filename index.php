@@ -6,6 +6,8 @@
 
 $roll = echo rand(1,6)
 
+echo $roll;  
+  
 if ($roll == 1){
 echo "ALmost Snake Eyes!";
 }
