@@ -4,14 +4,14 @@
 
 <?php
 
-$roll = echo rand(1,6)
+$roll = rand(1,6);
 
-echo $roll;  
-  
+echo $roll;
+
 if ($roll == 1){
-echo "ALmost Snake Eyes!";
+echo "Almost Snake Eyes!";
 }
-elif ($roll == 6){
+elseif ($roll == 6){
 echo "Winner!";
 }
 else{
